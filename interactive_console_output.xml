@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.2 (Python 3.11.1 on win32)" generated="20230124 19:48:54.384" rpa="false" schemaversion="3">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\dell\.vscode\extensions\robocorp.robotframework-lsp-1.8.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test" line="5">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="When Saisir le Nom utilisateur">
+<arg>${USERNAME}</arg>
+<msg timestamp="20230124 19:48:56.090" level="FAIL">No keyword with name 'When Saisir le Nom utilisateur' found.</msg>
+<status status="FAIL" starttime="20230124 19:48:56.090" endtime="20230124 19:48:56.090"/>
+</kw>
+<kw name="And Saisir le Mot de Passe">
+<arg>${PASSWORD}</arg>
+<status status="NOT RUN" starttime="20230124 19:48:56.092" endtime="20230124 19:48:56.092"/>
+</kw>
+<kw name="And Cliquer sur le boutton Login">
+<status status="NOT RUN" starttime="20230124 19:48:56.094" endtime="20230124 19:48:56.094"/>
+</kw>
+<kw name="Then Valider que le mot Dashboard s'affiche">
+<status status="NOT RUN" starttime="20230124 19:48:56.095" endtime="20230124 19:48:56.095"/>
+</kw>
+<status status="PASS" starttime="20230124 19:48:54.414" endtime="20230124 19:49:15.965"/>
+</kw>
+<status status="PASS" starttime="20230124 19:48:54.413" endtime="20230124 19:49:15.966"/>
+</test>
+<status status="PASS" starttime="20230124 19:48:54.387" endtime="20230124 19:49:15.968"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
